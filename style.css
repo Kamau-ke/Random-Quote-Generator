@@ -1,0 +1,25 @@
+header{
+    padding: 2em;
+    background-color: #00aeff;
+    margin-top: 2rem;
+    text-align: center;
+    color: #fff;
+}
+
+.quote{
+    font-size: 0.5rem;
+}
+
+.card{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+    width: 45em;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.new-quote-button{
+    background-color: #00aeff;
+}
